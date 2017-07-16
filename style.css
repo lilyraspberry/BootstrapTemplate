@@ -1,0 +1,82 @@
+/*header em {
+    font-style: bold;
+}*/
+
+section {
+    min-height: 1000px;
+    overflow: hidden;
+    position: 'relative';
+    padding: 80px 10px 0px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.section:nth-child (even) {
+    /* doesn't change the color of jumbotron. Why? How can I do it?*/
+    background-color:cadetblue; 
+    /* the background image can't be applied on the grey jumbotron section. Why? How can I do it without changing the background of #products?
+    background: url(https://cdn.pixabay.com/photo/2012/02/19/16/17/pamukkale-14983_960_720.jpg);*/
+}
+
+#home {
+    background: url(https://cdn.pixabay.com/photo/2017/06/24/23/03/railway-2439189_960_720.jpg) no-repeat center center fixed;
+    background-size: cover;
+   /*color: cornsilk;*/
+}
+
+#home div {
+    padding: 10px;
+    text-align: justify;
+    background-color: rgba(173,200,47,0.5);
+}
+
+#home div p {
+    margin-top: 20px;
+}
+
+#about p {
+    padding: 10px;
+}
+
+#about {
+    background: url(https://cdn.pixabay.com/photo/2016/09/21/04/46/barley-field-1684052_960_720.jpg);
+    background-size: cover;
+}
+
+#products {
+    background-color: rgba(173,200,47,0.5);
+    color: black;
+}
+
+#products .col-sm-6 p {
+    /*to change the button and text position below pictures*/
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+button {
+    object-position: center;
+    margin-left: 600px;
+}
+
+/*NOT WORKING
+#products .col-sm-6 btn {
+    to change the button position below pictures
+    line-height: 50px;
+    text-align: center;
+    font-weight: bold;
+}*/
+
+#contact {
+    background: url(https://cdn.pixabay.com/photo/2016/10/10/14/44/train-1728537_960_720.jpg);
+    background-size: cover;
+}
+
+form-group {
+    text-align: left;
+}
